@@ -4,20 +4,68 @@ body {
 #navbar {
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    margin: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 22px;
 }
+.AboutStore {
+    display: flex;
+    flex-direction: row;
+}
+.GIGS {
+    display: flex;
+    margin-left: 1400px;
+}
+
+
 #google-img {
     display: flex;
     justify-content: center;
+    margin-top: 233px;
+    margin-bottom: 30px;
 }
 #searchbox {
     display: flex;
     margin: auto;
-    border-radius: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    width: 550px;
+    height: 40px;
+    font-size: 16px;
+    
+}
+.searchlucky {
+    display: flex;
+    justify-content: center;
+}
+#GoogleSearch {
+    background-color: rgba(241, 246, 250, 0.747);
+    margin-right: 30px;
+    transform: scale(1.3);
+    border: none;
+}
+#ImFeelingLucky {
+    background-color: rgba(241, 246, 250, 0.747);
+    margin-left: 30px;
+    transform: scale(1.3);
+    border: none;
 }
 .anchors {
     text-decoration: none;
     color: black;
     margin: 10px;
+}
+.footerdiv {
+    background-color: rgba(197, 232, 243, 0.308);
+    position: absolute;
+    width: 100vmax;
+    bottom: 0px;
+}
+#footerbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 22px;
+    
 }
