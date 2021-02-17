@@ -1,0 +1,23 @@
+body {
+    display: block;
+}
+#navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#google-img {
+    display: flex;
+    justify-content: center;
+}
+#searchbox {
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+}
+.anchors {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
